@@ -1,6 +1,3 @@
-import os
-UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO")
-
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
